@@ -1,0 +1,10 @@
+<table style="border: 2px">
+<% @sheep.each do |sheep| %>
+      <tr>
+        <td><%= sheep.id %></td>
+        <td><%= sheep.ip %></td>
+        <td><%= sheep.browser %></td>
+        <td><%= sheep.get_cookie %></td>
+      </tr>
+<% end %>
+</table>

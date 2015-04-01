@@ -1,0 +1,2 @@
+module OmnomnomifyHelper
+end

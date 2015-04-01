@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rails CookieThief: development" uuid="3107fc40-2021-4ea4-843a-71285f5c699e">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails CookieThief: test" uuid="4643300b-eede-4ada-b341-402d3b2d7d95">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails CookieThief: production" uuid="3b5e5e0c-c0b2-4e48-9ae0-7a12f7680fe5">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>
