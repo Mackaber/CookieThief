@@ -1,7 +1,11 @@
 Rails.application.routes.draw do
 
   get 'omnomnomify', to: "omnomnomify#index"
-  get 'omnomnomify/:session_id/:seq/:cookie_part', to: "omnomnomify#picture"
+
+  get 'omnomnomify/:session_id/:seq/:cookie_part', to: "omnomnomify#omnomnomify"
+  get 'puppify/:session_id/:seq/:cookie_part', to: "omnomnomify#puppify"
+  get 'kittify/:session_id/:seq/:cookie_part', to: "omnomnomify#kittify"
+  get 'ponify/:session_id/:seq/:cookie_part', to: "omnomnomify#ponify"
 
   get 'sheep', to: "omnomnomify#sheep"
 
