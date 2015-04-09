@@ -1,10 +1,16 @@
-<table style="border: 2px">
-<% @sheep.each do |sheep| %>
-      <tr>
-        <td><%= sheep.id %></td>
-        <td><%= sheep.ip %></td>
-        <td><%= sheep.browser %></td>
-        <td><%= sheep.get_cookie %></td>
-      </tr>
-<% end %>
-</table>
+<div style="margin: 50px;">
+  <table style="  max-width: 100%;
+          border-left: 1px solid #dddddd;
+          border-right: 1px solid #dddddd;
+          border-bottom: 1px solid #dddddd;">
+    <% @sheep.each do |sheep| %>
+        <tr>
+          <td><%= sheep.id %></td>
+          <td><%= sheep.ip %></td>
+          <td><%= sheep.browser %></td>
+          <td><%= sheep.get_cookie %></td>
+          <td><%= sheep.created_at %></td>
+        </tr>
+    <% end %>
+  </table>
+</div>
